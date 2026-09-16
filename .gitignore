@@ -1,0 +1,66 @@
+# Maven and Java build output
+target/
+out/
+build/
+*.class
+*.hprof
+
+# Maven helper files
+.flattened-pom.xml
+dependency-reduced-pom.xml
+release.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Logs and local runtime data
+*.log
+logs/
+tmp/
+temp/
+
+# Local configuration and environment files
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+config/local/
+
+# Credentials, certificates, and private keys
+.secrets/
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Coverage and test reports
+*.exec
+coverage/
+reports/
+
+# Editor and tool temporary files
+*.swp
+*.swo
+*~
+.cache/
+.pytest_cache/
+node_modules/
