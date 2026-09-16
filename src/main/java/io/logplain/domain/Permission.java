@@ -1,0 +1,11 @@
+package io.logplain.domain;
+
+public enum Permission {
+    ACCEPT_REQUEST,
+    EXECUTE_FLOW,
+    CALL_DESTINATION,
+    READ_TRANSACTION,
+    OPERATE_TRANSACTION,
+    MANAGE_TENANT,
+    MANAGE_CONFIGURATION
+}
